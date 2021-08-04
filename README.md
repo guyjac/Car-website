@@ -41,3 +41,8 @@ The admin page allows the administrator to view all tables in the database.
 The admin page also allows an admin to add a new car. This will later be changed to add optional extras too.
  
  ![](https://github.com/guyjac/Car-website/blob/main/add_car.png)
+ 
+ 
+ ## Schema
+ ![](https://github.com/guyjac/Car-website/blob/main/dummy_database/dbschema.PNG)
+ ![](https://github.com/guyjac/Car-website/blob/main/dummy_database/dbschema1.PNG)

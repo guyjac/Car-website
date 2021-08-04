@@ -1,0 +1,149 @@
+ ul.topbar {
+     position: relative;
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+}
+ul.sidebar {
+	list-style-type: none;
+	/*margin-left:15px;*/
+	font-size:20px;
+	padding: 0;
+	overflow: hidden;
+}
+ li.topbar {
+     float: left;
+}
+
+ a.nav:link, a.nav:visited {
+     display: block;
+     text-align: center;
+     text-decoration: none;
+     color: white;
+     padding: 10px;
+     margin-right: 14px;
+}
+ a.nav:hover, a.nav:active {
+     background-color: #5aa2e0;
+    /*FADE*/
+     -o-transition:.5s;
+     -ms-transition:.5s;
+     -moz-transition:.5s;
+     -webkit-transition:.5s;
+     transition:.5s;
+} 
+a.side:link, a.side:visited {
+     text-decoration: none;
+	 padding:10px;
+     color: #111;
+}
+li.curSide{
+	position:relative;
+	background-color:#6cb6f5;
+}
+
+li.sidebar:hover{
+	 background-color: #d0d2d8; 
+}
+
+ *{
+     font-style: normal;
+     font-family: Calibri;
+}
+h3.sb{
+	font-weight:400;
+	color:#404144;
+	padding:10px;
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+h1.dep{
+	margin-top: 2px;
+	color:#111;
+	padding:10px;
+	padding-top:0px;
+}
+
+ body{
+     background-image: url("body-tail.gif");
+}
+
+
+table,td,th
+{
+text-align:center;
+}
+table
+{
+width:100%;
+border-collapse: collapse;
+
+}
+th
+{
+height:50px;
+background-color:#eeeeee;
+border:1px dotted #C4C4C4;
+
+}
+td{
+	background-color: #ffffff;
+	border:1px dotted #C4C4C4;
+	padding:0px;
+
+}
+
+ #navBar{
+     background-color:#3a3d42;
+     position: fixed;
+     width:100%;
+     top:0px;
+     left:0px;
+}
+ #sideBar{
+ 
+     background-color:#e5e5e5;
+     position: fixed;
+     width:220px;
+     top:40px;
+     right:0px;
+	 height:100%;
+	 
+}
+ #content{
+	 margin-left:5px;
+	 margin-right:220px;
+	 margin-top:100px;
+	 overflow:none;
+	 z-index:-1;
+}
+#purchase_content{
+	 margin-left:5px;
+	 margin-right:5px;
+	 margin-top:100px;
+	 overflow:none;
+	 z-index:-1;
+}
+#contentLeft{
+	float:left;
+	 text-align: left;
+	 width: 40%;
+}
+#contentRight{
+	float:right;
+	text-align: left;
+	width: 60%;
+}
+#configChoice{	
+	float:left;
+	width:auto;
+	height: 180px;
+	margin-right:45px;
+}
+#configChoice_no_height{	
+	float:left;
+	width:auto;
+	margin-right:45px;
+}
+

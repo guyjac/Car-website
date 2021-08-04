@@ -1,0 +1,93 @@
+ ul.topbar {
+     position: relative;
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+}
+ul.sidebar {
+	list-style-type: none;
+	/*margin-left:15px;*/
+	font-size:20px;
+	padding: 0;
+	overflow: hidden;
+}
+ li.topbar {
+     float: left;
+}
+
+
+ a.nav:link, a.nav:visited {
+     display: block;
+     text-align: center;
+     text-decoration: none;
+     color: white;
+     padding: 10px;
+     margin-right: 14px;
+}
+ a.nav:hover, a.nav:active {
+     background-color: #5aa2e0;
+    /*FADE*/
+     -o-transition:.5s;
+     -ms-transition:.5s;
+     -moz-transition:.5s;
+     -webkit-transition:.5s;
+     transition:.5s;
+} 
+
+a:link {
+  color: white;
+  
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+
+
+ *{
+     font-style: normal;
+     font-family: Calibri;
+}
+ body{
+     background-image: url("img/bg.jpg");
+}
+ #navBar{
+     background-color:#3a3d42;
+     position: fixed;
+     width:100%;
+     top:0px;
+     left:0px;
+}
+
+ #content{
+	 margin-left:5px;
+	 margin-right:220px;
+	 margin-top:250px;
+	 overflow:none;
+	 z-index:-1;
+}
+#purchase_content{
+	 margin-left:5px;
+	 margin-right:5px;
+	 margin-top:100px;
+	 overflow:none;
+	 z-index:-1;
+}
+
+
+h2{
+	color:WHITE;
+	padding:10px;
+	padding-top:0px;
+
+}
+h1{
+	margin-top: 2px;
+	color:WHITE;
+	padding:10px;
+	padding-top:0px;
+}
+

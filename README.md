@@ -1,4 +1,6 @@
-# Car-website
+# Car website
+This website was developed during our challenge week, which took place over a period of 4 days. We were tasked with coding this website ‘by hand’ and could not use any 3rd party libraries.
+The website shown is coded using a PHP / MYSQL backend, and a HTML / CSS frontend.
 
  
 
